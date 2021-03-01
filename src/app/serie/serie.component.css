@@ -1,9 +1,8 @@
-/* Add application styles & imports to this file! */
-
-* {
-  background-color: #060606;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+p,
+h1 {
+  color: white;
 }
+
 table {
   font-family: verdana;
   text-align: center;
@@ -21,22 +20,37 @@ td {
 }
 
 th {
-  background-color: bisque;
-  color: black;
+  background-color: #f06c5a;
+  color: white;
 }
 
 td {
-  background-color: rgb(229, 229, 229);
+  background-color: white;
 }
 
 a {
-  background-color: rgb(229, 229, 229);
+  background-color: #f06c5a;
   text-decoration: none;
   color: black;
 }
 
+a:hover {
+  background-color: red;
+  color: white;
+}
+
+th.anadir {
+  text-align: right;
+}
+
+.anadir {
+  border: 20px;
+  border-collapse: collapse;
+  padding: 0px 10px;
+}
+
 input {
-  background-color: bisque;
+  background-color: white;
   border-radius: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -46,7 +60,7 @@ input {
 }
 
 button {
-  background-color: bisque;
+  background-color: white;
   font-size: 15px;
   border-radius: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,4 +68,9 @@ button {
   border-color: black;
   border-width: 2px;
   border-collapse: separate;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
 }
